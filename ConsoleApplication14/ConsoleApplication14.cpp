@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    Task2 task2("Task_2.txt");
+    Task2 task2("../ConsoleApplication14/Tasks/Task_2.txt");
     task2.calculateAvg();
 
     thread thread1(&Task2::writeResultToFiles, ref(task2));

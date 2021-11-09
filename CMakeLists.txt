@@ -8,4 +8,6 @@ include_directories(ConsoleApplication14)
 add_executable(HW10Week
         ConsoleApplication14/ConsoleApplication14.cpp
         ConsoleApplication14/Text_Preprocessor.cpp
-        ConsoleApplication14/Text_Preprocessor.h)
+        ConsoleApplication14/Text_Preprocessor.h
+        ConsoleApplication14/Task2.cpp
+        ConsoleApplication14/Task2.h)
