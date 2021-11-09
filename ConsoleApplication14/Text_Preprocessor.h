@@ -17,6 +17,7 @@ public:
 	}
 	~Text_Preprocessor() {
 		obj.close();
+
 	}
 
 	void preprocess_text() {

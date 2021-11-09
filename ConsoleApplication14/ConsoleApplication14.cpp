@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include "Text_Preprocessor.h"
+#include "Task2.h"
 #include <iostream>
 using namespace std;
 
