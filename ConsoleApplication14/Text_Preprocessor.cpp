@@ -44,4 +44,6 @@ int Text_Preprocessor::search_word(const string &str) {
       return ret;
     }
   }
+
+  return -1;
 }

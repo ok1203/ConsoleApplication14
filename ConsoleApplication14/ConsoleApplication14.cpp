@@ -6,6 +6,15 @@ using namespace std;
 
 int main()
 {
+    Text_Preprocessor textPreprocessor("../ConsoleApplication14/Tasks/Task_1.txt");
+    textPreprocessor.preprocess_text();
+    int answer = textPreprocessor.search_word("");
+    if(answer != -1) {
+      cout << "Word is not found";
+    } else {
+      cout << answer;
+    }
+
     Task2 task2("../ConsoleApplication14/Tasks/Task_2.txt");
     task2.calculateAvg();
 
